@@ -1,0 +1,21 @@
+{
+    "name": "capitan",
+    "displayName": "Capitan",
+    "description": "Really cool theme I made when I had other things I should've been doing instead",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Capitan",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Capitan-color-theme.json"
+            }
+        ]
+    }
+}
