@@ -10,13 +10,12 @@
     },
     "keywords": [
         "capitan",
-        "danny",
-        "mendiola",
         "dark theme",
         "pastel",
         "readable",
         "dannymendiola"
     ],
+    "icon": "https://i.imgur.com/VNYVcgB.png",
     "engines": {
         "vscode": "^1.58.0"
     },
