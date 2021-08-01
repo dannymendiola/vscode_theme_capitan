@@ -3,6 +3,20 @@
     "displayName": "Capitán",
     "description": "Really cool theme I made when I had other things I should've been doing instead",
     "version": "0.0.1",
+    "publisher": "DannyMendiola",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dannymendiola/vscode_theme_capitan.git"
+    },
+    "keywords": [
+        "capitan",
+        "danny",
+        "mendiola",
+        "dark theme",
+        "pastel",
+        "readable",
+        "dannymendiola"
+    ],
     "engines": {
         "vscode": "^1.58.0"
     },
