@@ -190,6 +190,17 @@
         }
     },
     {
+        "name": "Regular Text",
+        "scope": [
+            "variable.other.readwrite.js",
+            "meta.template.expression.js",
+            "meta.embedded.line.js",
+        ],
+        "settings": {
+            "foreground": "#eee2c7",
+        }
+    },
+    {
         "name": "Dark Blue Grey",
         "scope": [
             "support.variable",
@@ -203,7 +214,7 @@
             "variable.language.this.js",
             "variable.language.special.self.python",
             "constant.other.caps.python",
-            "support.type.python"
+            "support.type.python",
         ],
         "settings": {
             "foreground": "#4b7e7a"
@@ -271,17 +282,6 @@
         }
     },
     {
-        "name": "Regular Text",
-        "scope": [
-            "variable.other.readwrite.js",
-            "meta.template.expression.js",
-            "meta.embedded.line.js",
-        ],
-        "settings": {
-            "foreground": "#eee2c7",
-        }
-    },
-    {
         "name": "Red",
         "scope": [
             "storage",
@@ -298,7 +298,8 @@
     {
         "name": "Orange",
         "scope": [
-            "variable.parameter"
+            "variable.parameter",
+            "support.type.property-name.css"
         ],
         "settings": {
             "foreground": "#e49246"
@@ -350,7 +351,8 @@
             "constant",
             "storage",
             "variable.language.special.self.python",
-            "variable.language.this.js"
+            "variable.language.this.js",
+            "support.type.property-name.css"
         ],
         "settings": {
             "fontStyle": "bold"
