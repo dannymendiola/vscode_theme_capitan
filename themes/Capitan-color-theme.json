@@ -247,7 +247,7 @@
             "punctuation.definition.template-expression",
             "entity.name.tag",
             "meta.structure.dictionary.json support.type.property-name",
-            "variable.other.object.js",
+            // "variable.other.object.js",
         ],
         "settings": {
             "foreground": "#3f88c5"
@@ -348,7 +348,6 @@
             "invalid",
             "keyword",
             "entity.other.attribute-name",
-            "variable.other.object.js",
         ],
         "settings": {
             "fontStyle": "italic"
