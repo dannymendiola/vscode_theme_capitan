@@ -13,7 +13,8 @@
         "dark theme",
         "pastel",
         "readable",
-        "dannymendiola"
+        "dannymendiola",
+        "dark"
     ],
     "icon": "images/icon.png",
     "engines": {

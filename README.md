@@ -9,5 +9,5 @@ Urgent warning: if you did not mean to install a VScode theme you probably did s
 <hr>
 
 <p align="center">
-    <img src="https://media0.giphy.com/media/OBVxH1NIG4gfzsgV0P/giphy.gif?cid=790b76117bb11c110b8274e5fb79f809486302d7dba5826c&rid=giphy.gif&ct=g">
+    <img src="https://s6.gifyu.com/images/capitan_v007.gif">
 </p>

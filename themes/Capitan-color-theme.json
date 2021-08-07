@@ -11,20 +11,21 @@
   "type": "dark",
 
   "colors": {
-    "focusBorder": "#bb955736",
+    "focusBorder": "#00000031",
     "foreground": "#ffe6a7",
     "widget.shadow": "#14151A",
-    "selection.background": "#746f77",
+    "selection.background": "#444347",
     "errorForeground": "#FC644D",
 
     "button.background": "#3f88c5",
     "button.hoverBackground": "#3f88c5",
 
-    "dropdown.background": "#333333",       // idk why this looks different from the other light grays but it does
+    "dropdown.background": "#373941",       // idk why this looks different from the other light grays but it does
     "dropdown.border": "#000000",
-    "dropdown.foreground": "#b6b6b6",
+    "dropdown.foreground": "#b3b3b3",
 
-    "input.background": "#2b303b",
+    "input.background": "#00000025",
+    "input.border": "#00000025",
     "input.placeholderForeground": "#746f77",
     "inputOption.activeBorder": "#C668BA",
     "inputValidation.errorBackground": "#D65343",
@@ -61,7 +62,7 @@
     "activityBarBadge.foreground": "#1e1e29",
 
     "sideBar.background": "#1e1e29",
-    "sideBarSectionHeader.background": "#23262E",
+    "sideBarSectionHeader.background": "#2b2b33",
     "sideBarTitle.foreground": "#bb9457",
     "sideBar.foreground": "#757575",
 
@@ -81,8 +82,8 @@
     "editor.selectionHighlightBackground": "#4F435580",
     "editor.wordHighlightBackground": "#29356b7e",
     "editor.wordHighlightStrongBackground": "#0000009c",
-    "editor.findMatchBackground": "#0000008e",
-    "editor.findMatchHighlightBackground": "#59b8b377",
+    "editor.findMatchBackground": "#707070a2",
+    "editor.findMatchHighlightBackground": "#00000077",
     "editor.hoverHighlightBackground": "#373941",
     "editor.lineHighlightBackground": "#292933",
     "editorLink.activeForeground": "#ff0000",
@@ -104,12 +105,12 @@
     "diffEditor.insertedTextBackground": "#29BF1220",
     "diffEditor.removedTextBackground": "#F21B3F20",
 
-    "editorWidget.background": "#2a2020",
+    "editorWidget.background": "#3a3a3a",
     "editorSuggestWidget.background": "#20232A",
     "editorSuggestWidget.border": "#372F3C",
     "editorSuggestWidget.selectedBackground": "#373941",
     "editorHoverWidget.background": "#373941",
-    "editorHoverWidget.border": "#00e8c5cc",
+    "editorHoverWidget.border": "#5a5a5a",
     "debugExceptionWidget.background": "#FF9F2E60",
     "debugExceptionWidget.border": "#FF9F2E60",
 
@@ -131,14 +132,16 @@
     "panel.border": "#1B1D2300",
     "panelTitle.activeBorder": "#23262E00",
     "panelTitle.inactiveForeground": "#746f77",
+    "panelTitle.activeForeground": "#ffe6a7",
 
     "statusBar.background": "#1e1e29",
     "statusBar.debuggingBackground": "#B12E2E",
     "statusBar.noFolderBackground": "#23262E",
-    "statusBarItem.activeBackground": "#ffe6a7",
-    "statusBarItem.hoverBackground": "#34344a",
+    "statusBarItem.activeBackground": "#4d4d4d",
+    "statusBarItem.hoverBackground": "#3f3f3f",
     "statusBarItem.prominentBackground": "#07d4b5b0",
     "statusBarItem.prominentHoverBackground": "#00e8c5cc",
+    "statusBar.foreground": "#707070",
 
     "terminal.ansiRed":"#B12E2E",
     "terminal.ansiGreen":"#84ca61",
@@ -158,6 +161,7 @@
     "terminal.foreground": "#ffe6a7",
     "terminal.ansiBrightBlack": "#315daf",      // command line args
     "terminal.ansiBrightWhite": "#315daf",
+    "terminal.border": "#14141477",
 
     "titleBar.activeBackground": "#1e1e29",
     "titleBar.inactiveBackground": "#2b2b33",
@@ -174,7 +178,9 @@
 
     "walkThrough.embeddedEditorBackground": "#23262E",
 
-    "textLink.foreground": "#3f88c5"
+    "textLink.foreground": "#3f88c5",
+
+    "icon.foreground": "#ffe6a7"
 },
   "tokenColors": [
     {
@@ -183,21 +189,10 @@
             "comment",
             "markup.quote.markdown",
             "meta.diff",
-            "meta.diff.header"
+            "meta.diff.header",
         ],
         "settings": {
             "foreground": "#5a5a5a"
-        }
-    },
-    {
-        "name": "Regular Text",
-        "scope": [
-            "variable.other.readwrite.js",
-            "meta.template.expression.js",
-            "meta.embedded.line.js",
-        ],
-        "settings": {
-            "foreground": "#eee2c7",
         }
     },
     {
@@ -209,7 +204,6 @@
             "source.css entity.name.tag.reference",
             "beginning.punctuation.definition.list.markdown",
             "source.css entity.other.attribute-name.parent-selector",
-            "meta.structure.dictionary.json support.type.property-name",
             "markup.heading",
             "variable.language.this.js",
             "variable.language.special.self.python",
@@ -251,7 +245,9 @@
             "punctuation.section.embedded.begin.php",
             "punctuation.section.embedded.begin.ruby",
             "punctuation.definition.template-expression",
-            "entity.name.tag"
+            "entity.name.tag",
+            "meta.structure.dictionary.json support.type.property-name",
+            "variable.other.object.js",
         ],
         "settings": {
             "foreground": "#3f88c5"
@@ -275,7 +271,7 @@
             "entity.other.attribute-name.class.jade",
             "source.css entity.other.attribute-name",
             "text.xml punctuation.definition.string"
-
+            
         ],
         "settings": {
             "foreground": "#ffca43"
@@ -299,7 +295,7 @@
         "name": "Orange",
         "scope": [
             "variable.parameter",
-            "support.type.property-name.css"
+            "support.type.property-name.css",
         ],
         "settings": {
             "foreground": "#e49246"
@@ -325,6 +321,18 @@
         }
     },
     {
+        "name": "Regular Text",
+        "scope": [
+            "variable.other.readwrite.js",
+            "meta.template.expression.js",
+            "meta.embedded.line.js",
+            "string.template.js",
+        ],
+        "settings": {
+            "foreground": "#eee2c7",
+        }
+    },
+    {
         "name": "Underline",
         "scope": [
             "entity.other.inherited-class"
@@ -339,7 +347,8 @@
             "comment",
             "invalid",
             "keyword",
-            "entity.other.attribute-name"
+            "entity.other.attribute-name",
+            "variable.other.object.js",
         ],
         "settings": {
             "fontStyle": "italic"
@@ -352,7 +361,8 @@
             "storage",
             "variable.language.special.self.python",
             "variable.language.this.js",
-            "support.type.property-name.css"
+            "support.type.property-name.css",
+            "meta.structure.dictionary.json support.type.property-name",
         ],
         "settings": {
             "fontStyle": "bold"
