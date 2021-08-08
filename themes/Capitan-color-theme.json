@@ -15,7 +15,7 @@
     "foreground": "#ffe6a7",
     "widget.shadow": "#14151A",
     "selection.background": "#444347",
-    "errorForeground": "#FC644D",
+    "errorForeground": "#d35551",
 
     "button.background": "#3f88c5",
     "button.hoverBackground": "#3f88c5",
@@ -28,8 +28,8 @@
     "input.border": "#00000025",
     "input.placeholderForeground": "#746f77",
     "inputOption.activeBorder": "#C668BA",
-    "inputValidation.errorBackground": "#D65343",
-    "inputValidation.errorBorder": "#D65343",
+    "inputValidation.errorBackground": "#d35551",
+    "inputValidation.errorBorder": "#d35551",
     "inputValidation.infoBackground": "#3A6395",
     "inputValidation.infoBorder": "#3A6395",
     "inputValidation.warningBackground": "#DE9237",
@@ -43,7 +43,7 @@
     "badge.background": "#3f88c5",
     "badge.foreground": "#eee2c7",
 
-    "progressBar.background": "#C668BA",
+    "progressBar.background": "#3f88c5",
 
     "list.activeSelectionBackground": "#2e2e2e",
     "list.activeSelectionForeground": "#ffe6a7",
@@ -86,7 +86,7 @@
     "editor.findMatchHighlightBackground": "#00000077",
     "editor.hoverHighlightBackground": "#373941",
     "editor.lineHighlightBackground": "#292933",
-    "editorLink.activeForeground": "#ff0000",
+    "editorLink.activeForeground": "#4b7e7a",
     "editor.rangeHighlightBackground": "#372F3C",
     "editorWhitespace.foreground": "#333844",
     "editorIndentGuide.background": "#333844",
@@ -96,8 +96,8 @@
     "editorBracketMatch.background": "#ffe6a74b",
     "editorBracketMatch.border": "#ffe6a76e",
     "editorOverviewRuler.border": "#1B1D23",
-    "editorError.foreground": "#FC644D",
-    "editorWarning.foreground": "#FF9F2E",
+    "editorError.foreground": "#ff0800",
+    "editorWarning.foreground": "#ffb700",
     "editorGutter.modifiedBackground": "#5BC0EBBB",
     "editorGutter.addedBackground": "#9BC53DBB",
     "editorGutter.deletedBackground": "#FC644DBB",
@@ -136,11 +136,13 @@
 
     "statusBar.background": "#1e1e29",
     "statusBar.debuggingBackground": "#B12E2E",
+    "statusBar.debuggingForeground": "#c5c5c5",
     "statusBar.noFolderBackground": "#23262E",
     "statusBarItem.activeBackground": "#4d4d4d",
     "statusBarItem.hoverBackground": "#3f3f3f",
-    "statusBarItem.prominentBackground": "#07d4b5b0",
-    "statusBarItem.prominentHoverBackground": "#00e8c5cc",
+    "statusBarItem.prominentBackground": "#B12E2E",
+    "statusBarItem.prominentForeground": "#9b9b9b",
+    "statusBarItem.prominentHoverBackground": "#B12E2E",
     "statusBar.foreground": "#707070",
 
     "terminal.ansiRed":"#B12E2E",
@@ -180,7 +182,34 @@
 
     "textLink.foreground": "#3f88c5",
 
-    "icon.foreground": "#ffe6a7"
+    "icon.foreground": "#ffe6a7",
+
+    "debugIcon.breakpointForeground": "#d35551",
+    "debugIcon.breakpointDisabledForeground": "#696969",
+    "debugIcon.continueForeground": "#68ca68",
+    "debugIcon.stopForeground": "#d35551",
+    "debugIcon.restartForeground": "#68ca68",
+    "debugIcon.stepBackForeground": "#3f88c5",
+    "debugIcon.stepIntoForeground": "#3f88c5",
+    "debugIcon.stepOverForeground": "#3f88c5",
+    "debugIcon.stepOutForeground": "#3f88c5",
+    
+    "debugTokenExpression.name": "#eee2c7",
+    "debugTokenExpression.boolean": "#3f88c5",
+    "debugTokenExpression.string": "#68ca68",
+    "debugTokenExpression.number": "#3f88c5",
+    "debugTokenExpression.value": "#e49246",
+    "debugTokenExpression.error": "#d35551",
+
+    "debugIcon.breakpointStackframeForeground": "#ffca43",
+    "debugIcon.breakpointCurrentStackframeForeground": "#ffca43",
+
+    "editor.stackFrameHighlightBackground": "#ffca4335",
+    "editor.inlineValuesForeground": "#696969",
+
+    "gitDecoration.addedResourceForeground": "#68ca68",
+    "gitDecoration.modifiedResourceForeground": "#ffca43",
+    "gitDecoration.deletedResourceForeground": "#d35551",
 },
   "tokenColors": [
     {
@@ -192,7 +221,7 @@
             "meta.diff.header",
         ],
         "settings": {
-            "foreground": "#5a5a5a"
+            "foreground": "#696969"
         }
     },
     {
@@ -363,6 +392,7 @@
             "variable.language.this.js",
             "support.type.property-name.css",
             "meta.structure.dictionary.json support.type.property-name",
+            "entity.name.tag.css",
         ],
         "settings": {
             "fontStyle": "bold"
