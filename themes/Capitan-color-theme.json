@@ -286,6 +286,7 @@
             "meta.image",
             "markup.italic",
             "source.js support.type",
+            "entity.other.attribute-name.id.css",
         ],
         "settings": {
             "foreground": "#d35551"
