@@ -238,6 +238,10 @@
             "variable.language.special.self.python",
             "constant.other.caps.python",
             "support.type.python",
+            "entity.other.attribute-name.pseudo-element.css",
+            // "variable.parameter.js.jsx",
+            
+            // "variable.other.constant.js.jsx"
         ],
         "settings": {
             "foreground": "#4b7e7a"
@@ -276,6 +280,8 @@
             "punctuation.definition.template-expression",
             "entity.name.tag",
             "meta.structure.dictionary.json support.type.property-name",
+            // "meta.object-literal.key.js.jsx",
+            
             // "variable.other.object.js",
         ],
         "settings": {
@@ -299,7 +305,8 @@
             "meta.at-rule.extend support.constant",
             "entity.other.attribute-name.class.jade",
             "source.css entity.other.attribute-name",
-            "text.xml punctuation.definition.string"
+            "text.xml punctuation.definition.string",
+            // "meta.import.js.jsx",
             
         ],
         "settings": {
@@ -316,6 +323,8 @@
             "markup.italic",
             "source.js support.type",
             "entity.other.attribute-name.id.css",
+            "punctuation.section.embedded.begin.js.jsx",
+            "punctuation.section.embedded.end.js.jsx",
         ],
         "settings": {
             "foreground": "#d35551"
@@ -326,6 +335,7 @@
         "scope": [
             "variable.parameter",
             "support.type.property-name.css",
+            "variable.other.object.js.jsx",
         ],
         "settings": {
             "foreground": "#e49246"
@@ -357,6 +367,8 @@
             "meta.template.expression.js",
             "meta.embedded.line.js",
             "string.template.js",
+            "meta.brace.square.js.jsx",
+            "punctuation.separator.key-value.js.jsx",
         ],
         "settings": {
             "foreground": "#eee2c7",
@@ -378,6 +390,8 @@
             "invalid",
             "keyword",
             "entity.other.attribute-name",
+            // "meta.embedded.expression.js.jsx"
+            "variable.other.object.js.jsx",
         ],
         "settings": {
             "fontStyle": "italic"
@@ -393,6 +407,9 @@
             "support.type.property-name.css",
             "meta.structure.dictionary.json support.type.property-name",
             "entity.name.tag.css",
+            "punctuation.section.embedded.begin.js.jsx",
+            "punctuation.section.embedded.end.js.jsx",
+            "meta.import.js.jsx",
         ],
         "settings": {
             "fontStyle": "bold"
