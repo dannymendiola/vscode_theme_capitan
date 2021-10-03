@@ -243,7 +243,8 @@
         // "variable.other.constant.js.jsx"
       ],
       "settings": {
-        "foreground": "#4b7e7a"
+        "foreground": "#9b3bb8"
+        // "foreground": "#4b7e7a"
       }
     },
     {
@@ -364,7 +365,7 @@
       "name": "Cyan",
       "scope": ["constant.language.python", "constant.numeric"],
       "settings": {
-        "foreground": "#59d3c1"
+        "foreground": "#28dae0"
       }
     },
     {
