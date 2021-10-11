@@ -363,7 +363,11 @@
     },
     {
       "name": "Cyan",
-      "scope": ["constant.language.python", "constant.numeric"],
+      "scope": [
+        "constant.language.python",
+        "constant.numeric",
+        "variable.scss"
+      ],
       "settings": {
         "foreground": "#28dae0"
       }
@@ -397,7 +401,8 @@
         "keyword",
         "entity.other.attribute-name",
         // "meta.embedded.expression.js.jsx"
-        "variable.other.object.js.jsx"
+        "variable.other.object.js.jsx",
+        "variable.scss"
       ],
       "settings": {
         "fontStyle": "italic"
