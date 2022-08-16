@@ -13,18 +13,18 @@
         "focusBorder": "#92929231",
         "foreground": "#ffe6a7",
         "widget.shadow": "#14151A",
-        "selection.background": "#f2effd",
+        "selection.background": "#3f88c5",
         "errorForeground": "#d35551",
 
         "button.background": "#3f88c5",
         "button.hoverBackground": "#3f88c5",
 
-        "dropdown.background": "#373941", // idk why this looks different from the other light grays but it does
+        "dropdown.background": "#2a2d35", // idk why this looks different from the other light grays but it does
         "dropdown.border": "#000000",
-        "dropdown.foreground": "#b3b3b3",
+        "dropdown.foreground": "#eee2c7",
 
-        "input.background": "#00000025",
-        "input.border": "#e2000025",
+        "input.background": "#292929",
+        "input.border": "#000000",
         "input.placeholderForeground": "#746f77",
         "inputOption.activeBorder": "#C668BA",
         "inputValidation.errorBackground": "#d35551",
@@ -35,7 +35,7 @@
         "inputValidation.warningBorder": "#DE9237",
 
         "scrollbar.shadow": "#23262E",
-        "scrollbarSlider.activeBackground": "#3A3F4CCC",
+        "scrollbarSlider.activeBackground": "#eee2c71c",
         "scrollbarSlider.background": "#3A3F4C77",
         "scrollbarSlider.hoverBackground": "#3A3F4CAA",
 
@@ -77,12 +77,12 @@
         "editorLineNumber.activeForeground": "#ffe6a7",
         "editorLineNumber.foreground": "#696969",
         "editorCursor.foreground": "#ffe6a7",
-        "editor.selectionBackground": "#303541",
-        "editor.selectionHighlightBackground": "#4F435580",
-        "editor.wordHighlightBackground": "#29356b7e",
-        "editor.wordHighlightStrongBackground": "#0000009c",
-        "editor.findMatchBackground": "#707070a2",
-        "editor.findMatchHighlightBackground": "#00000077",
+        "editor.selectionBackground": "#39678d83",
+        "editor.selectionHighlightBackground": "#ffb7002c",
+        // "editor.wordHighlightBackground": "#00000000",
+        // "editor.wordHighlightStrongBackground": "#31281f",
+        "editor.findMatchBorder": "#eee2c7",
+        "editor.findMatchHighlightBackground": "#ffb7004f",
         "editor.hoverHighlightBackground": "#373941",
         "editor.lineHighlightBackground": "#292933",
         "editorLink.activeForeground": "#4b7e7a",
@@ -106,7 +106,7 @@
         "diffEditor.insertedTextBackground": "#29BF1220",
         "diffEditor.removedTextBackground": "#F21B3F20",
 
-        "editorWidget.background": "#000000ad",
+        "editorWidget.background": "#000000d0",
         "editorSuggestWidget.background": "#20232A",
         "editorSuggestWidget.border": "#372F3C",
         "editorSuggestWidget.selectedBackground": "#373941",
