@@ -23,8 +23,8 @@
         "dropdown.border": "#000000",
         "dropdown.foreground": "#eee2c7",
 
-        "input.background": "#292929",
-        "input.border": "#000000",
+        "input.background": "#101016",
+        // "input.border": "#000000",
         "input.placeholderForeground": "#746f77",
         "inputOption.activeBorder": "#C668BA",
         "inputValidation.errorBackground": "#d35551",
