@@ -282,7 +282,8 @@
                 "punctuation.definition.template-expression",
                 "entity.name.tag",
                 "meta.structure.dictionary.json support.type.property-name",
-                "constant.numeric.css"
+                "constant.numeric.css",
+                "support.type.primitive.ts"
                 // "meta.object-literal.key.js.jsx",
 
                 // "variable.other.object.js",
@@ -405,7 +406,8 @@
                 "entity.other.attribute-name",
                 // "meta.embedded.expression.js.jsx"
                 "variable.other.object.js.jsx",
-                "variable.scss"
+                "variable.scss",
+                "variable.object.property.ts"
             ],
             "settings": {
                 "fontStyle": "italic"
