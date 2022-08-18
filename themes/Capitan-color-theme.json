@@ -240,6 +240,7 @@
                 "constant.other.caps.python",
                 "support.type.python",
                 "entity.other.attribute-name.pseudo-element.css"
+
                 // "variable.parameter.js.jsx",
 
                 // "variable.other.constant.js.jsx"
@@ -283,10 +284,8 @@
                 "entity.name.tag",
                 "meta.structure.dictionary.json support.type.property-name",
                 "constant.numeric.css",
-                "support.type.primitive.ts"
-                // "meta.object-literal.key.js.jsx",
-
-                // "variable.other.object.js",
+                "support.type.primitive.ts",
+                "support.type.builtin.ts"
             ],
             "settings": {
                 "foreground": "#3f88c5"
@@ -371,6 +370,8 @@
                 "constant.language.python",
                 "constant.numeric",
                 "variable.scss"
+                // "entity.name.type.ts",
+                // "entity.name.type.alias.ts"
             ],
             "settings": {
                 "foreground": "#28dae0"
@@ -404,7 +405,6 @@
                 "invalid",
                 "keyword",
                 "entity.other.attribute-name",
-                // "meta.embedded.expression.js.jsx"
                 "variable.other.object.js.jsx",
                 "variable.scss",
                 "variable.object.property.ts"
