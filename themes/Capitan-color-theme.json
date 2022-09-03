@@ -208,6 +208,9 @@
         "editor.stackFrameHighlightBackground": "#ffca4335",
         "editor.inlineValuesForeground": "#696969",
 
+        "editorInlayHint.parameterForeground": "#e49246",
+        "editorInlayHint.parameterBackground": "#00000000",
+
         "gitDecoration.addedResourceForeground": "#68ca68",
         "gitDecoration.modifiedResourceForeground": "#ffca43",
         "gitDecoration.deletedResourceForeground": "#d35551"
@@ -285,7 +288,11 @@
                 "meta.structure.dictionary.json support.type.property-name",
                 "constant.numeric.css",
                 "support.type.primitive.ts",
-                "support.type.builtin.ts"
+                "support.type.builtin.ts",
+                "storage.type.primitive.java",
+                "storage.type.primitive.array.java",
+                "storage.type.java",
+                "storage.type.object.array.java"
             ],
             "settings": {
                 "foreground": "#3f88c5"
